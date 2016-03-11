@@ -21,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/bloggify-plugin-loader/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/bloggify-plugin-loader#readme"
+  "homepage": "https://github.com/IonicaBizau/bloggify-plugin-loader#readme",
+  "dependencies": {
+    "bindy": "^1.0.1",
+    "noop6": "^1.0.0",
+    "one-by-one": "^3.1.0"
+  }
 }
