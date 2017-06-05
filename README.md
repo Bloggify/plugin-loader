@@ -5,6 +5,8 @@
 
 > The Bloggify plugin loader.
 
+This is the default plugin loader for Bloggify.
+
 ## :cloud: Installation
 
 ```sh
