@@ -1,19 +1,6 @@
+## Documentation
 
-# bloggify-plugin-loader
-
- [![Version](https://img.shields.io/npm/v/bloggify-plugin-loader.svg)](https://www.npmjs.com/package/bloggify-plugin-loader) [![Downloads](https://img.shields.io/npm/dt/bloggify-plugin-loader.svg)](https://www.npmjs.com/package/bloggify-plugin-loader)
-
-> The Bloggify plugin loader.
-
-## :cloud: Installation
-
-```sh
-$ npm i --save bloggify-plugin-loader
-```
-
-
-## :memo: Documentation
-
+You can see below the API reference of this module.
 
 ### `bloggifyPluginLoader(bloggify)`
 BloggifyPluginLoader
@@ -97,18 +84,3 @@ If `true`, the raw plugin module will be returned. Otherwise, it will fetch the 
 #### Return
 - **BloggifyPlugin|String** The plugin's name or instance.
 
-
-
-## :yum: How to contribute
-Have an idea? Found a bug? See [how to contribute][contributing].
-
-
-
-## :scroll: License
-
-[MIT][license] © [Bloggify][website]
-
-[license]: http://showalicense.com/?fullname=Bloggify%20%3Csupport%40bloggify.org%3E%20(https%3A%2F%2Fbloggify.org)&year=2016#license-mit
-[website]: https://bloggify.org
-[contributing]: /CONTRIBUTING.md
-[docs]: /DOCUMENTATION.md
