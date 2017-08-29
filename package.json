@@ -8,7 +8,7 @@
     "the"
   ],
   "license": "MIT",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -25,7 +25,7 @@
   "dependencies": {
     "assured": "^1.0.8",
     "bindy": "^1.0.1",
-    "bloggify-plugin-class": "^1.0.0",
+    "bloggify-plugin-class": "^2.0.0",
     "noop6": "^1.0.0",
     "one-by-one": "^3.1.0"
   },
