@@ -23,10 +23,11 @@
   },
   "homepage": "https://github.com/Bloggify/plugin-loader#readme",
   "dependencies": {
+    "assured": "^1.0.8",
     "bindy": "^1.0.1",
+    "bloggify-plugin-class": "^1.0.0",
     "noop6": "^1.0.0",
-    "one-by-one": "^3.1.0",
-    "bloggify-plugin-class": "^1.0.0"
+    "one-by-one": "^3.1.0"
   },
   "files": [
     "bin/",
