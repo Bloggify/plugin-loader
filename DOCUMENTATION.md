@@ -67,6 +67,9 @@ Initializes the plugins that need to be loaded.
 - **Array** `names`: The list of plugin names.
 - **Function** `cb`: The callback function.
 
+#### Return
+- **Promise** A promise.
+
 ### `loadPlugin(plugin, cb)`
 Loads the provided plugin.
 
@@ -79,7 +82,7 @@ If `true`, the raw plugin module will be returned. Otherwise, it will fetch the 
 
 #### Params
 - **String** `name`: The plugin's name.
-- **Boolean** `mod`: The plugin's module.
+- **Boolean** `mod`: The plugin's module. Default: `true`
 
 #### Return
 - **BloggifyPlugin|String** The plugin's name or instance.
