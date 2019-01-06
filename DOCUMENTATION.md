@@ -7,6 +7,7 @@ BloggifyPluginLoader
 The Bloggify plugin loader.
 
 #### Params
+
 - **BloggifyCore** `bloggify`: The `BloggifyCore` instance.
 
 #### Return
@@ -16,6 +17,7 @@ The Bloggify plugin loader.
 Fetches the plugin's path.
 
 #### Params
+
 - **BloggifyPlugin** `pluginName`: The plugin's name.
 
 #### Return
@@ -25,6 +27,7 @@ Fetches the plugin's path.
 Fetches the path list for each plugin.
 
 #### Params
+
 - **Array** `names`: The list of plugin names.
 
 #### Return
@@ -34,6 +37,7 @@ Fetches the path list for each plugin.
 Fetches the list of the plugin's instances.
 
 #### Params
+
 - **Array** `names`: The list of plugin names.
 - **Function** `cb`: The callback function.
 
@@ -41,6 +45,7 @@ Fetches the list of the plugin's instances.
 Fetches called plugin's content if it's valid. Otherwise, it fetches a new one.
 
 #### Params
+
 - **BloggifyPlugin** `plugin`: The plugin's name.
 
 #### Return
@@ -50,6 +55,7 @@ Fetches called plugin's content if it's valid. Otherwise, it fetches a new one.
 Fetches the plugins list.
 
 #### Params
+
 - **Array** `names`: The list of plugin names.
 - **Function** `cb`: The callback function.
 
@@ -57,6 +63,7 @@ Fetches the plugins list.
 Initializes the plugin's instance.
 
 #### Params
+
 - **BloggifyPlugin** `plug`: The plugin instance.
 - **Function** `cb`: The callback function.
 
@@ -64,6 +71,7 @@ Initializes the plugin's instance.
 Initializes the plugins that need to be loaded.
 
 #### Params
+
 - **Array** `names`: The list of plugin names.
 - **Function** `cb`: The callback function.
 
@@ -74,6 +82,7 @@ Initializes the plugins that need to be loaded.
 Loads the provided plugin.
 
 #### Params
+
 - **BloggifyPlugin** `plugin`: The plugin instance.
 - **Function** `cb`: The callback function.
 
@@ -81,6 +90,7 @@ Loads the provided plugin.
 If `true`, the raw plugin module will be returned. Otherwise, it will fetch the instance of the plugin.
 
 #### Params
+
 - **String** `name`: The plugin's name.
 - **Boolean** `mod`: The plugin's module. Default: `true`
 
